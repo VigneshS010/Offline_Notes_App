@@ -1,16 +1,11 @@
-# taskly
+# Offline Notes App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+The **Offline Notes App** is a simple note-taking application built with Flutter. It leverages the Hive package to store data locally on the device, allowing users to create, edit, and delete notes even without an internet connection. The app ensures a seamless offline experience, making it ideal for users who need to jot down quick notes without worrying about data sync or cloud storage.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Offline Functionality**: Notes are stored locally using Hive, enabling full functionality without an internet connection.
+- **CRUD Operations**: Users can create, read, update, and delete notes easily.
+- **Lightweight and Fast**: Optimized for performance with efficient data handling using the Hive package.
